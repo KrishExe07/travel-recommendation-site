@@ -1,0 +1,102 @@
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f9ff;
+  color: #333;
+}
+
+header {
+  background-color: #005f73;
+  padding: 1rem 2rem;
+}
+
+.navbar {
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar a {
+  color: #e0fbfc;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  background-color: #0a9396;
+  color: #ffffff;
+}
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.intro, .about-us, .contact-us {
+  background: #e0fbfc;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  color: #005f73;
+}
+
+.gallery {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.gallery img {
+  width: 45%;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  object-fit: cover;
+  height: 200px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+input[type="email"],
+textarea {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #0a9396;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+button {
+  margin-top: 1rem;
+  background-color: #005f73;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0a9396;
+}
+
+#formResponse {
+  margin-top: 1rem;
+  color: green;
+  font-weight: bold;
+}
